@@ -6,7 +6,7 @@ This is a simple App for Firebase util (iOS, Swift)
 
 * Receive push notification token and messages.
 
-## Getting Start
+## Getting Started
 
 * Step 1 : First of all \
 pod install --verbose \
