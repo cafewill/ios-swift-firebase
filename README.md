@@ -14,7 +14,7 @@ Create Firebase project and replace the GoogleService-Info.plist file with yours
 
 * Step 2 : Build and run \
 Open Xcode project with "Cube.xcworkspace" \
-Build and run project
+Build and run project.
 
 * Step #3 Check token and messages \
 Check token, for example : [dsmG***** ... ...] \
