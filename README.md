@@ -1,4 +1,4 @@
-# ios-swift-firebase-devel
+# ios-swift-firebase
 
 This is a simple App for Firebase util (iOS, Swift)
 
