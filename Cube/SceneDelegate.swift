@@ -13,7 +13,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
 
-        Allo.i ("scene / willConnectTo / options", String (describing: self));
+        Allo.i ("scene / willConnectTo / options", String (describing: self))
 
         guard let _ = (scene as? UIWindowScene) else { return }
     }
@@ -24,28 +24,28 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Release any resources associated with this scene that can be re-created the next time the scene connects.
         // The scene may re-connect later, as its session was not necessarily discarded (see `application:didDiscardSceneSessions` instead).
 
-        Allo.i ("sceneDidDisconnect", String (describing: self));
+        Allo.i ("sceneDidDisconnect", String (describing: self))
     }
 
     func sceneDidBecomeActive (_ scene: UIScene) {
         // Called when the scene has moved from an inactive state to an active state.
         // Use this method to restart any tasks that were paused (or not yet started) when the scene was inactive.
 
-        Allo.i ("sceneDidBecomeActive", String (describing: self));
+        Allo.i ("sceneDidBecomeActive", String (describing: self))
     }
 
     func sceneWillResignActive (_ scene: UIScene) {
         // Called when the scene will move from an active state to an inactive state.
         // This may occur due to temporary interruptions (ex. an incoming phone call).
 
-        Allo.i ("sceneWillResignActive", String (describing: self));
+        Allo.i ("sceneWillResignActive", String (describing: self))
     }
 
     func sceneWillEnterForeground (_ scene: UIScene) {
         // Called as the scene transitions from the background to the foreground.
         // Use this method to undo the changes made on entering the background.
 
-        Allo.i ("sceneWillEnterForeground", String (describing: self));
+        Allo.i ("sceneWillEnterForeground", String (describing: self))
     }
 
     func sceneDidEnterBackground (_ scene: UIScene) {
@@ -53,7 +53,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // Use this method to save data, release shared resources, and store enough scene-specific state information
         // to restore the scene back to its current state.
 
-        Allo.i ("sceneDidEnterBackground", String (describing: self));
+        Allo.i ("sceneDidEnterBackground", String (describing: self))
     }
 
 
